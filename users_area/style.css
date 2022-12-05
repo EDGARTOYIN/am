@@ -1,0 +1,62 @@
+
+:root{
+
+    --color-carbon:#0d0d0d;
+    --color-orange:#ea6b3d;
+    --white-color:#ffff;
+    --color-orange2:#e65a29;
+
+}
+
+
+/*
+* HEADER LOGO
+*/
+.logo{
+    font-size: 2rem;
+}
+
+/*
+* HEADER BG-COLOR
+*/
+
+.h-bg-color{
+    background-color: var(--color-carbon);
+    color: white;
+}
+
+.subh-bg-color{
+    background-color: var(--color-carbon);
+}
+
+
+/*
+* Categories and products
+*/
+
+
+.categories-container{
+    border-radius: 10px;
+    background-color: var(--color-orange);
+}
+.img{
+        width:100%;
+        margin:auto;
+        display:block;
+    }
+.profile_img{
+        width: 90%;
+        margin:auto;
+        display:block;
+        /* height: 100%; */
+        object-fit:contain;
+    }
+.edit_img{
+        width: 100px;
+        height: 100px;
+        object-fit:contain;
+    }
+body{
+        overflow-x:hidden;
+    }
+    
